@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>It works</title></head>
+  <body><h1>Served privately from S3 through CloudFront OAC</h1></body>
+</html>
+
+<!--
+To upload file into an s3 bucket
+
+
+aws s3 cp site/index.html "s3://$BUCKET/index.html" \
+  --content-type "text/html; charset=utf-8"
+ 
+-->
